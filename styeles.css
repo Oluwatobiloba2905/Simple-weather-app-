@@ -19,7 +19,7 @@
      font-size: 120%;
      background: url('https://media.giphy.com/media/h2U7mw5FtSqDenaGwJ/giphy.gif');
      background-size: 1500px 1000px;
-     /* width height */
+ 
 
  }
 
@@ -116,7 +116,6 @@
  }
 
  .icon {
-     /* background: url(https://openweathermap.org/img/wn/04n.png) no-repeat center center/cover; */
      display: flex;
      justify-content: center;
      align-items: center;

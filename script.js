@@ -70,6 +70,7 @@ function noinput(data) {
     document.querySelector(".wind").style.visibility = "hidden";
 }
 PageTransitionEvent
+
 function citynotfound(data) {
     document.querySelector(".location-city").innerHTML = "City not found";
     document.querySelector(".temperature-degree").style.position = "absolute";
