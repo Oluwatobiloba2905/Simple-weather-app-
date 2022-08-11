@@ -19,7 +19,7 @@
      font-size: 120%;
      background: url('https://media.giphy.com/media/h2U7mw5FtSqDenaGwJ/giphy.gif');
      background-size: 1500px 1000px;
- 
+
 
  }
 
@@ -32,7 +32,7 @@
 
  button {
      margin: 0.5em;
-     border-radius: 50%;
+     border-radius: 30%;
      border: none;
      height: 44px;
      width: 44px;
@@ -79,7 +79,7 @@
  }
 
  .card {
-     background: #000000d0;
+     background-color: black;
      color: white;
      padding: 2em;
      border-radius: 30px;
