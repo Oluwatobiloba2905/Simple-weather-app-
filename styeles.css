@@ -72,13 +72,13 @@
      left: 20px;
  }
 
- .place {
+ .location {
      display: flex;
      align-items: center;
      margin: 10px 0;
  }
 
- .general {
+ .card {
      background-color: black;
      color: white;
      padding: 2em;
