@@ -46,14 +46,14 @@ function getweather(data) {
         speed
     } = data.wind;
     // console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".location-city").innerHTML = "Weather in " + name;
-    document.querySelector(".temperature-degree").innerHTML = temp + "°C";
-    document.querySelector(".weather-description").innerHTML = description;
+    document.querySelector(".place-city").innerHTML = "Weather in " + name;
+    document.querySelector(".degree").innerHTML = temp + "°C";
+    document.querySelector(".descipt").innerHTML = description;
     document.querySelector(".humidity").innerHTML = "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerHTML = "Wind: " + speed + "Km/hr";
     document.querySelector(".weather ").classList.remove("loading");
-    document.querySelector(".temperature-degree").style.position = "relative";
-    document.querySelector(".temperature-degree").style.visibility = "visible";
+    document.querySelector(".degree").style.position = "relative";
+    document.querySelector(".degree").style.visibility = "visible";
     document.querySelector(".humidity").style.position = "relative";
     document.querySelector(".humidity").style.visibility = "visible";
     document.querySelector(".wind").style.position = "relative";
@@ -61,9 +61,9 @@ function getweather(data) {
 }
 
 function noinput(data) {
-    document.querySelector(".location-city").innerHTML = "Something went wrong!";
-    document.querySelector(".temperature-degree").style.position = "absolute";
-    document.querySelector(".temperature-degree").style.visibility = "hidden";
+    document.querySelector(".place-city").innerHTML = "Something went wrong!";
+    document.querySelector(".degree").style.position = "absolute";
+    document.querySelector(".degree").style.visibility = "hidden";
     document.querySelector(".humidity").style.position = "absolute";
     document.querySelector(".humidity").style.visibility = "hidden";
     document.querySelector(".wind").style.position = "absolute";
@@ -72,9 +72,9 @@ function noinput(data) {
 PageTransitionEvent
 
 function citynotfound(data) {
-    document.querySelector(".location-city").innerHTML = "City not found";
-    document.querySelector(".temperature-degree").style.position = "absolute";
-    document.querySelector(".temperature-degree").style.visibility = "hidden";
+    document.querySelector(".place-city").innerHTML = "City not found";
+    document.querySelector(".degree").style.position = "absolute";
+    document.querySelector(".degree").style.visibility = "hidden";
     document.querySelector(".humidity").style.position = "absolute";
     document.querySelector(".humidity").style.visibility = "hidden";
     document.querySelector(".wind").style.position = "absolute";
