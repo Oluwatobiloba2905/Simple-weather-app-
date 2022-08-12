@@ -17,8 +17,9 @@
      background-repeat: no-repeat;
      background-size: cover;
      font-size: 120%;
-     background: url('https://media.giphy.com/media/h2U7mw5FtSqDenaGwJ/giphy.gif');
+     background: url('https://i.gifer.com/fzmZ.gif');
      background-size: 1500px 1000px;
+     background-attachment: ur('audio');
 
 
  }
@@ -132,4 +133,9 @@
      body {
          background-image: "url('https://unsplash.com/photos/MF9Wy1NA55I')";
      }
+ }
+
+ #audio {
+     color: black;
+     background-color: black;
  }
