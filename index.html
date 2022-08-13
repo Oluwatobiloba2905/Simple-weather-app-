@@ -12,15 +12,24 @@
         integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
 </head>
 
-<body>
+<body onload="autoNotify()">
     <div class="card">
-        <audio src="wind-13850.mp3" autoplay="true" loop="true">
+        <!-- <div class="audio">
+            <audio src="wind-13850.mp3" autoplay="true" loop="true"></audio>
+        </div> -->
 
-        </audio>
+
+        <!-- <div class="audio">
+            <audio id="audio" src="wind-13850.mp3" preload="auto"></audio>
+        </div> -->
+        <audio id="notifypop" src="wind-13850.mp3" autoplay="true" loop="true"></audio>
+
+
         <div class="search">
             <input class="search-bar" placeholder="Name of city" />
             <button>🔎</button>
         </div>
+
         <div class="weather loading">
             <div class="location">
                 <h1 class="location-city"></h1>
