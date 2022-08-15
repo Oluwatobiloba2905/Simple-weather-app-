@@ -1,8 +1,9 @@
-var popupsound = document.getElementById("notifypop");
-function autoNotify() {
-    popupsound.play();
-};
-
+// var popupsound = document.getElementById("notifypop");
+// function autoNotify() {
+//     popupsound.play();
+// };
+// var x = 
+document.getElementById("notifypop").play();
 let weather = {
     apikey: "5bc2b4f40acfffa046713955a4370d52",
     fetchWeather: function (city) {
