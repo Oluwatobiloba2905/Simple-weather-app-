@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +12,9 @@
 </head>
 
 <body>
+    <div class="speak">
+        <button class="speaker" onclick="mute()">🔇</button>
+    </div>
     <div class="card">
 
         <audio id="notifypop" src="wind-13850.mp3" autoplay="true" loop="true"></audio>
@@ -21,6 +23,7 @@
         <div class="search">
             <input class="search-bar" placeholder="Name of city" />
             <button>🔎</button>
+
         </div>
 
         <div class="weather loading">

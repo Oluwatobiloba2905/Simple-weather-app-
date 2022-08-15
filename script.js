@@ -65,3 +65,7 @@ function getweather(data) {
     document.querySelector(".wind").style.position = "relative";
     document.querySelector(".wind").style.visibility = "visible";
 }
+
+function mute() {
+    document.getElementById("notifypop").pause();
+}
