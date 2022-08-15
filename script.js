@@ -3,7 +3,7 @@
 //     popupsound.play();
 // };
 // var x = 
-document.getElementById("notifypop").play();
+document.getElementById("notifypop").autoplay;
 let weather = {
     apikey: "5bc2b4f40acfffa046713955a4370d52",
     fetchWeather: function (city) {
