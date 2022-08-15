@@ -65,13 +65,3 @@ function getweather(data) {
     document.querySelector(".wind").style.position = "relative";
     document.querySelector(".wind").style.visibility = "visible";
 }
-
-function noinput(data) {
-    document.querySelector(".location-city").innerHTML = "Something went wrong!";
-    document.querySelector(".temperature-degree").style.position = "absolute";
-    document.querySelector(".temperature-degree").style.visibility = "hidden";
-    document.querySelector(".humidity").style.position = "absolute";
-    document.querySelector(".humidity").style.visibility = "hidden";
-    document.querySelector(".wind").style.position = "absolute";
-    document.querySelector(".wind").style.visibility = "hidden";
-}
